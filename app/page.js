@@ -1,6 +1,7 @@
 import NavBar from "@/components/organisms/NavBar/NavBar";
 import Hero from "@/components/organisms/Hero/Hero";
 import LanguagesBand from "@/components/organisms/LanguagesBand/LanguagesBand";
+import LionIntro from "@/components/organisms/LionIntro/LionIntro";
 import GameCards from "@/components/organisms/GameCards/GameCards";
 import Teachers3D from "@/components/organisms/Teachers3D/Teachers3D";
 import Journey from "@/components/organisms/Journey/Journey";
@@ -16,6 +17,7 @@ export default function Page() {
       <main>
         <Hero />
         <LanguagesBand />
+        <LionIntro />
         <GameCards />
         <Teachers3D />
         <Journey />
