@@ -29,7 +29,7 @@ export default function Hero() {
           <p className={styles.lead}>
             9 idiomas, 5 jogos e 250 fases em cada um. Professores 3D conversam com você, palavra por palavra, sem pressão.
           </p>
-          <StoreButtons />
+          <StoreButtons className={styles.stores} />
           <ul className={styles.proof}>
             <li>Grátis para começar</li>
             <li>iPhone e Android</li>

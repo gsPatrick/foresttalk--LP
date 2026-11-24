@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { STORES } from "@/lib/site";
+import { ICONS } from "@/components/atoms/StoreButton/StoreButton";
 import styles from "./StickyStores.module.css";
 
 export default function StickyStores() {
@@ -18,8 +19,8 @@ export default function StickyStores() {
   }, []);
   return (
     <div className={`${styles.bar} ${show ? styles.on : ""}`} aria-hidden={!show}>
-      <a href={STORES.apple} target="_blank" rel="noopener noreferrer" tabIndex={show ? 0 : -1}>App Store</a>
-      <a href={STORES.google} target="_blank" rel="noopener noreferrer" tabIndex={show ? 0 : -1}>Google Play</a>
+      <a href={STORES.apple} target="_blank" rel="noopener noreferrer" tabIndex={show ? 0 : -1}>{ICONS.apple}<span>App Store</span></a>
+      <a href={STORES.google} target="_blank" rel="noopener noreferrer" tabIndex={show ? 0 : -1}>{ICONS.google}<span>Google Play</span></a>
     </div>
   );
 }
