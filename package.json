@@ -1,0 +1,17 @@
+{
+  "name": "forest-talk-landing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3017",
+    "build": "next build",
+    "start": "next start -p 3017",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.160.0"
+  }
+}

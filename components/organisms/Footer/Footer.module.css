@@ -1,0 +1,5 @@
+.footer { padding: 36px 0 44px; background: var(--night); color: #cdeed9; }
+.inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-3); }
+.links { display: flex; flex-wrap: wrap; gap: 8px 24px; font-weight: 800; font-size: 15px; }
+.links a { opacity: 0.85; } .links a:hover { opacity: 1; color: var(--sun); }
+.copy { width: 100%; font-size: 13px; opacity: 0.6; font-weight: 700; }

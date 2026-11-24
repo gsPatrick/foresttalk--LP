@@ -1,0 +1,7 @@
+.wrap { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 14px; width: 100%; }
+.name { font-weight: 900; font-size: 15px; background: rgba(255,255,255,.85); padding: 4px 14px; border-radius: 999px; letter-spacing: 0.02em; color: var(--night); min-height: 1.4em; }
+.dots { display: flex; gap: 8px; }
+.dot { width: 9px; height: 9px; padding: 0; border: 0; border-radius: 999px; background: var(--night); opacity: 0.25; cursor: pointer; transition: width 0.5s var(--ease), opacity 0.5s; }
+.dot.active { width: 26px; opacity: 0.9; }
+.wrap > div:first-child { width: min(100%, 300px, calc((100svh - 250px) * 0.45)); }
+@media (max-width: 880px) { .wrap > div:first-child { width: min(100%, 300px); } }

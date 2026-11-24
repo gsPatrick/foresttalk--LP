@@ -1,0 +1,14 @@
+PASTA DA TURMA — imagens novas dos personagens para a landing
+
+Coloque aqui as imagens geradas. Nomes sugeridos (um por animal, em minúsculas, sem acento):
+  leao_rei.png   coruja.png   raposa.png   urso.png      gata.png      elefante.png
+  girafa.png     coelho.png   canguru.png  cavalo.png    cachorro.png
+
+Formato recomendado:
+  - PNG com fundo transparente (ou WebP), personagem inteiro, sem plaquinha de nome
+  - Quadrado, 1024 x 1024 px (mínimo 600 x 600)
+  - Mesmo estilo e mesma iluminação em todos, para a turma ficar uniforme
+  - Margem pequena ao redor do personagem
+
+Atenção: hoje a landing usa os avatares do app (pasta public/characters), que têm 332 px e fundo.
+Depois que as imagens estiverem aqui, é só avisar que eu troco no site.

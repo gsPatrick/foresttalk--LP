@@ -1,0 +1,9 @@
+.band { position: relative; padding: 36px 0 40px; background: var(--forest); border-top: 6px solid #1b8444; overflow: hidden; }
+.kicker { text-align: center; margin-bottom: 18px; font-weight: 900; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #d6ffe2; }
+.track { overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+.row { display: flex; gap: 14px; width: max-content; animation: slide 38s linear infinite; }
+.chip { display: flex; align-items: center; gap: 12px; padding: 10px 22px 10px 14px; background: #fff; border-radius: 20px; box-shadow: 0 4px 0 rgba(8, 38, 26, 0.3); }
+.flag { font-size: 34px; line-height: 1; }
+.chip b { display: block; font-size: 18px; line-height: 1.1; }
+.chip small { color: var(--muted); font-weight: 700; font-size: 13px; }
+@keyframes slide { to { transform: translateX(-50%); } }
